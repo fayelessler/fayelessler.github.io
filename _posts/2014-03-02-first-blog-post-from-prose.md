@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: First blog post from Prose
 date: March 2 2014
 ---
