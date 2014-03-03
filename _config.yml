@@ -1,0 +1,25 @@
+name: fayelessler
+markdown: redcarpet
+pygments: true
+timezone: America/Los_Angeles
+prose:
+  rooturl: "_posts"
+  media: "media"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "date"
+        field:
+          element: "text"
+          label: "post date"
+      - name: "title"
+        field:
+          element: "text"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "published"
+          value: true
